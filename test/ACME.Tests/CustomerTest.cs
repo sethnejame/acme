@@ -50,5 +50,27 @@ namespace ACME.Tests
       //-- Assert
       Assert.Equal(expected, actual);
     }
+
+    [Fact]
+    public void StaticTest()
+    {
+      //-- Arrange
+      var c1 = new Customer();
+      c1.FirstName = "Seth";
+      Customer.InstanceCount += 1;
+
+      var c2 = new Customer();
+      c2.FirstName = "Natalie";
+      Customer.InstanceCount += 1;
+
+      var c3 = new Customer();
+      c3.FirstName = "Fat Bob";
+      Customer.InstanceCount += 1;
+
+      //-- Act
+
+      //-- Assert
+      Assert.Equal(3, Customer.InstanceCount);
+    }
   }
 }

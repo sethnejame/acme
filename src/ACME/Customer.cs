@@ -41,6 +41,11 @@ namespace ACME
         return fullName;
       }
     }
+    // using a static modifier on the class member below makes this
+    // member belong to the class itself, rather than to objects instantiated
+    // from the class. This is useful for holding information relative to all
+    // objects made from the 'Customer' class
+    public static int InstanceCount { get; set; }
   }
 
 }
