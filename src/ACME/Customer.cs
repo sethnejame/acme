@@ -24,6 +24,14 @@ namespace ACME
         _lastName = value;
       }
     }
+    
+    public string FullName
+    {
+      get
+      {
+        return LastName + ", " + FirstName;
+      }
+    }
 
   }
 }
