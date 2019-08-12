@@ -1675,6 +1675,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "ACME/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ACME.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ACME.dll": {}
+        }
       }
     }
   },
@@ -5894,10 +5904,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ACME/1.0.0": {
+      "type": "project",
+      "path": "../../src/ACME/ACME.csproj",
+      "msbuildProject": "../../src/ACME/ACME.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "ACME >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -5927,7 +5943,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/ACME.csproj": {
+              "projectPath": "/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/ACME.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

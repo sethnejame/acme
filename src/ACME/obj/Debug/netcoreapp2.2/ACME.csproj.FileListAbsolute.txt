@@ -1,0 +1,11 @@
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/bin/Debug/netcoreapp2.2/ACME.deps.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/bin/Debug/netcoreapp2.2/ACME.runtimeconfig.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/bin/Debug/netcoreapp2.2/ACME.runtimeconfig.dev.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/bin/Debug/netcoreapp2.2/ACME.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/bin/Debug/netcoreapp2.2/ACME.pdb
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.csproj.CoreCompileInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/Debug/netcoreapp2.2/ACME.pdb
