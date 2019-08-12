@@ -6,9 +6,11 @@ namespace ACME.Tests
     public class CustomerTest
     {
         [Fact]
-        public void Test1()
+        public void FullNameTestValid()
         {
-
+            //-- Arrange
+            Customer customer = new Customer();
+            //-- Act
         }
     }
 }
