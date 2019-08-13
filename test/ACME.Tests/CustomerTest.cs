@@ -91,5 +91,23 @@ namespace ACME.Tests
       //--Assert
       Assert.Equal(expected, actual);
     }
+
+    [Fact]
+    public void ValidateInvalid()
+    {
+      //-- Arrange
+      var customer = new Customer
+      {
+        LastName = "Chucklesworth",
+      };
+
+      var expected = false;
+
+      //-- Act
+      var actual = customer.Validate();
+
+      //--Assert
+      Assert.Equal(expected, actual);
+    }
   }
 }
