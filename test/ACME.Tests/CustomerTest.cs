@@ -72,5 +72,24 @@ namespace ACME.Tests
       //-- Assert
       Assert.Equal(3, Customer.InstanceCount);
     }
+
+    [Fact]
+    public void ValidateValid()
+    {
+      //-- Arrange
+      var customer = new Customer
+      {
+        LastName = "Chucklesworth",
+        Email = "mrchucklesworth@gmail.com"
+      };
+
+      var expected = true;
+
+      //-- Act
+      var actual = customer.Validate();
+
+      //--Assert
+      Assert.Equal(expected, actual);
+    }
   }
 }
