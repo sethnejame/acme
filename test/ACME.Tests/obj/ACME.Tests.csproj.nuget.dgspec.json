@@ -13,6 +13,9 @@
         "packagesPath": "/home/seth/.nuget/packages/",
         "outputPath": "/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/src/ACME/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/seth/.nuget/NuGet/NuGet.Config"
         ],
@@ -60,6 +63,9 @@
         "packagesPath": "/home/seth/.nuget/packages/",
         "outputPath": "/home/seth/Dropbox/Coding/CraftAcademy/Week8/acme/test/ACME.Tests/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/seth/.nuget/NuGet/NuGet.Config"
         ],

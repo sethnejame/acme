@@ -42,10 +42,34 @@ namespace ACME
       }
     }
     // using a static modifier on the class member below makes this
-    // member belong to the class itself, rather than to objects instantiated
-    // from the class. This is useful for holding information relative to all
+    // member belong to the class itself, rather than an instance of the object
+    // This is useful for holding information relative to all
     // objects made from the 'Customer' class
     public static int InstanceCount { get; set; }
   }
 
+  // Retrieves a customer
+  public Customer Retrieve(int customerId)
+  {
+    // Code that retrieves the defined customer
+
+    return new Customer();
+  }
+
+  // Saves the current customer
+  public bool Save()
+  {
+    // Code that saves the defined customer
+  }
+
+  // Validates a field
+  public bool Validate()
+  {
+    var isValid = true;
+
+    if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
+    if (string.IsNullOrWhiteSpace(Email)) isValid = false;
+
+    return isValid;
+  }
 }
